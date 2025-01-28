@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int forcaXP = 0;
+        int forcaXP;
         String forca;
         System.out.println("Digite um nome do seu Heroi;");
         String nome = sc.nextLine();
